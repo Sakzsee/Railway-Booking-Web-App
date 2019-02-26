@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Home/Search Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+button { background-color: "#000000" }
+</style>
+<body class="w3-light-grey">
+
+
+<!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>RAILWAY BOOKING SYSTEM</b></h1>
+    <h6>Travelling maketh man. <span class="w3-tag">BOOK NOW.</span></h6>
+  </header>
+
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="train_1.jpg" alt="Train image" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>START YOUR JOURNEY.</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('book').style.display='block'">BOOK TICKETS</button></h6>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('cancel').style.display='block'">CANCEL TICKETS</button></h6>
+    </div>
+  </header>
+
+
+
+  <!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+
+  <!-- Good offers -->
+  <div class="w3-container w3-margin-top">
+    <h3>Good Offers Right Now</h3>
+    <h6>Up to <strong>50%</strong> discount.</h6>
+  </div>
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="shimla.jpg" alt="Shimla" style="width:100%">
+        <span class="w3-display-bottomleft w3-padding">Shimla</span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="kochi.jpg" alt="Kochi" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Kochi</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="gokarna.jpg" alt="gokarna" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Gokarna</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="hampi.jpg" alt="Hampi" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Hampi</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="meg.jpg" alt="Meghalaya" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Meghalaya</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Food--Luggage-->
+  <div class="w3-container">
+    <h3>Everything is taken care of.</h3>
+    <p>Travel with us and see hospitality at its finest.</p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <img src="food.jpg" alt="Book your meal." style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Food.</h3>
+        <p class="w3-opacity">Book your meal.</p>
+        <p>Choose from a variety of World-class dishes from the kitchen of our renowned Chefs to enjoy during your journey.</p>
+        <button class="w3-button w3-margin-bottom">Book my Meal.</button>
+      </div>
+    </div>
+    <div class="w3-half w3-margin-bottom">
+      <img src="hotels.jpg" alt="Hotels and Lounging." style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Hotels and Lounging.</h3>
+        <p class="w3-opacity">Want to book hotels or reserve lounging spots before your next train arrives?</p>
+        <p>Don't worry. Just choose from our list of high-quality hotels and reserve your retiring rooms. </p>
+        <button class="w3-button w3-margin-bottom"style.display="block">Book/Reserve.</button>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- PNR Status -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Want to check your PNR Status?</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your PNR Number below.</p>
+          <p><input class="w3-input w3-border" type="number" placeholder="PNR number" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Check my PNR Status.</button></p>
+        </div>
+      </div>
+
+
+ <!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by IntelliGenX</p>
+</footer>

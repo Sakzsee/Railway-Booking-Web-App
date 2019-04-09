@@ -1,0 +1,703 @@
+<!--
+Author: IntelliGenX
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>IntelliGenX Railway Ticket Booking System</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="IntelliGenX Railway Ticket Booking System Software Engineering Project" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Khula:300,400,600,700,800" rel="stylesheet">
+    <!-- //Fonts -->
+</head>
+
+<body>
+    <!-- main-content -->
+    <div class="main-content" id="home">
+        <div class="layer">
+            <!-- header -->
+            <header>
+                <div class="container-fluid px-lg-5">
+                    <!-- nav -->
+                    <nav class="py-4 d-lg-flex"
+                        <label for="drop" class="toggle">Menu</label>
+                        <input type="checkbox" id="drop" />
+                        <ul class="menu mt-2 ml-auto">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#about" class="scroll">About</a></li>
+                            <li>
+                                <!-- First Tier Drop Down -->
+                                <label for="drop-2" class="toggle">Login/Signup<span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                                <a href="#">Login/SignUp<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <input type="checkbox" id="drop-2" />
+                                <ul class="inner-ul">
+                                    <li><a class="scroll" href="#login">Login</a></li>
+                                    <li><a href="#signup" class="scroll">Sign Up</a></li>
+                                </ul>
+                            </li>
+                          <!--  <li><a href="#testimonials" class="scroll">Reviews</a></li>-->
+                            <li><a href="#pnrstatus" class="scroll">Check PNR Status</a></li>
+                        </ul>
+                    </nav>
+                    <!-- //nav -->
+                </div>
+            </header>
+            <!-- //header -->
+            <div class="container">
+
+
+                <!-- /banner -->
+                <div class="banner-info-w3ls text-left">
+                    <h3>Enjoy a Comfortable Trip!</h3>
+                    <div class="read-more">
+                        <a href="#login" class="read-more scroll btn">Get Started </a> </div>
+                </div>
+                <div class="row order-info">
+                    <div class="middle mt-md-3 col-sm-6 text-left">
+                        <ul class="social mb-4">
+                            <li><a href="#"><span class="fa fa-facebook icon_facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter icon_twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus icon_google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin icon_linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-dribbble icon_dribbble"></span></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="middle-right mt-md-3 col-sm-6 text-sm-right">
+                        <h6><span class="fa fa-phone"></span> Call Now : +91 972837913</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- //banner -->
+        </div>
+    </div>
+    <!--// mian-content -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- banner-bottom-w3layouts -->
+    <section class="banner-bottom-w3layouts py-5" id="about">
+        <div class="container py-md-3">
+            <div class="row banner-grids">
+                <div class="col-md-6 content-left-bottom text-left pr-lg-5">
+                    <h4>INtelliGenX's RAILWAY TICKET BOOKING SYSTEM</h4>
+                    <p class="mt-2 text-left">Your safety is our concern.<strong class="text-capitalize"> "Enhance customer services and facilitation in railway catering, hospitality, travel and tourism with best industry practices".</strong> IntelliGenX has been set up by the Ministry of Railways with the basic purpose of hiving off entire catering and tourism activity of the railways to the new Corporation so as to professionalise and upgrade these services with public-private participation. Rail based Tourism in India will be the specific vehicle for achieving high growth in coordination with state agencies, tour operators, travel agents and the hospitality industry. A dynamic marketing strategy in association with public and private agencies, tour operators, transporters, hoteliers and local tour promoters is on the anvil.</p>
+                </div>
+                <div class="col-md-6 content-right-bottom text-left">
+                    <img src="images/ab.png" alt="news image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner-bottom-w3layouts -->
+
+
+
+
+
+    <!--/ SignUp -->
+    <section class="services py-5" id="signup">
+      <div class="container pb-md-5">
+          <div class="header py-lg-5 pb-3 text-center">
+              <h3 class="tittle mb-lg-5 mb-3">Create Account.</h3>
+          </div>
+
+          <div class="contact-form mx-auto text-left">
+              <form name="contactform" id="contactform2" method="post" action="#">
+                  <div class="row">
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Full Name *</label>
+                              <input type="name" class="form-control" id="name1" placeholder="name" name="name" required="yes">
+                          </div>
+                      </div>
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Date of Birth *</label>
+                              <input type="date" class="form-control" id="dob1" placeholder="DOB" name="dob" required="yes">
+                          </div>
+                      </div>
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Address *</label>
+                              <input type="name" class="form-control" id="add1" placeholder="Address" name="address" required="yes">
+                          </div>
+                      </div>
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Gender *</label>
+                              <input type="name" class="form-control" id="gender1" placeholder="Gender" name="gender" required="yes">
+                          </div>
+                      </div>
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Nationality *</label>
+                              <input type="name" class="form-control" id="nation1" placeholder="Nationality" name="nation" required="yes">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Aadhar No.*</label>
+                              <input type="number" class="form-control" id="aadnumber1" placeholder="Aadhar Card No" name="aadhar" required="yes">
+                          </div>
+                      </div>
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Phone Number *</label>
+                              <input type="number" class="form-control" id="mobilenumber1" placeholder="Mobile No." name="mobile" required="yes">
+                          </div>
+                      </div>
+
+
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Email *</label>
+                              <input type="email" class="form-control" id="email1" placeholder="Email" name="email" required="yes">
+                          </div>
+                      </div>
+
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Password *</label>
+                              <input type="Password" class="form-control" id="password1" placeholder="Password" name="password" required="yes">
+                          </div>
+                      </div>
+
+
+                      <div class="col-lg-4 contact-page">
+                          <div class="form-group">
+                              <button type="Sign Up" class="btn btn-default">Sign Up</button>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </form>
+          </div>
+
+  </section>
+    <!--// about -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--/mid-sec-->
+    <section class="mid-sec py-5" id="offer">
+        <div class="container py-lg-5">
+            <div class="header pb-lg-3 pb-3 text-center">
+                <h3 class="tittle mb-lg-3 mb-3">Best Travel Ever.</h3>
+            </div>
+            <div class="row middile-inner-con mt-md-3">
+                <div class="col-lg-4 benifit-content">
+                    <div class="row">
+                        <div class="col-md-8 benifit-left-info text-right">
+                            <h4 class="mb-3">Discounts</h4>
+                            <p>We provide discounts and easy fare for everyone.</p>
+                        </div>
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon">
+                                <span class="fa fa-tags" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-md-8 benifit-left-info text-right">
+                            <h4 class="mb-3">Easy Payment</h4>
+                            <p>You can pay online through any mode of payment. Secure Payment with cancellation.</p>
+                        </div>
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon">
+                                <span class="fa fa-money" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 benifit-left-info text-right">
+                            <h4 class="mb-3">100% Amazing Experience</h4>
+                            <p>Experience the IntelliGenX way of travelling in luxury.</p>
+                        </div>
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon">
+                                <span class="fa fa-unlock-alt" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 benifit-content">
+                    <img src="images/benifits.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 benifit-content">
+                    <div class="row">
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon text-md-center mx-auto">
+                                <span class="fa fa-globe" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 benifit-left-info text-left">
+                            <h4 class="mb-3">Nationwide</h4>
+                            <p>We have routes all over India for your convenience.</p>
+                        </div>
+                    </div>
+
+                    <div class="row  my-4">
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon text-md-center mx-auto">
+                                <span class="fa fa-refresh" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 benifit-left-info text-left">
+                            <h4 class="mb-3">Quick Booking</h4>
+                            <p>Book your tickets in a blink of an eye.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 benifit-icon-content">
+                            <div class="benifit-icon text-md-center mx-auto">
+                                <span class="fa fa-shield" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-8 benifit-left-info text-left">
+                            <h4 class="mb-3">Safety</h4>
+                            <p>We guarentee safety and a hygienic ride for your comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!--//mid-sec-->
+
+    <!--/ banner-bottom-w3layouts-->
+    <section class="app-serve pt-5" id="Routes">
+        <div class="container-fluid pt-lg-5">
+            <div class="ab-grids row text-left">
+                <div class="col-lg-6 pl-0 pr-lg-5 mt-lg-5 app-mob">
+                    <img src="images/app1.png" class="img-fluid" alt="mobile-image">
+                </div>
+                <div class="col-lg-6 mb-lg-5">
+
+                    <h3 class="tittle mb-lg-5 mb-3">PROVIDING WORLD CLASS FACILITIES- Just For You. </h3>
+
+                    <div class="feature-grids text-left mt-5 p-lg-5">
+                        <div class="bottom-gd my-lg-5">
+                            <span class="fa fa-database" aria-hidden="true"></span>
+                            <h3 class="my-4">Feeling hungry during the journey? Don't worry. Just book your meal in one click.</h3>
+                            <p>Choose from a variety of World-class dishes from the kitchen of our renowned Chefs to enjoy during your journey.</p>
+                        </div>
+                        <div class="bottom-gd my-lg-5">
+                            <span class="fa fa-money" aria-hidden="true"></span>
+                            <h3 class="my-4">Hotels and Lounging.</h3>
+                            <p>Want to book hotels or reserve lounging spots before your next train arrives?</p>
+        <p>Don't worry. Just choose from our list of high-quality hotels and reserve your retiring rooms.</p>
+                        </div>
+                        <ul class="list-unstyled apps-lists">
+                            <li>
+                                <a href="#" class="btn"><span class="fa fa-apple mr-2" aria-hidden="true"></span>Book Meal</a>
+                            </li>
+                            <li class="ml-2">
+                                <a href="#" class="btn"><span class="fa fa-android mr-2" aria-hidden="true"></span>Book Hotel/Lounge</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// banner-bottom-w3layouts-->
+
+
+
+
+
+
+    <!-- Gallery -->
+    <section class="contact py-5" id="login">
+        <div class="container pb-md-5">
+            <div class="header py-lg-5 pb-3 text-center">
+                <h3 class="tittle mb-lg-5 mb-3">Login.</h3>
+            </div>
+
+            <div class="contact-form mx-auto text-left">
+                <form name="contactform" id="contactform1" method="post" action="#">
+                    <div class="row">
+                        <div class="col-lg-4 con-gd">
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required="yes">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 con-gd">
+                            <div class="form-group">
+                                <label>Password *</label>
+                                <input type="Password" class="form-control" id="password" placeholder="Password" name="password" required="yes">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 contact-page">
+                            <div class="form-group">
+                            	<label>Start your journey.</label>
+                                <button type="login" class="btn btn-default">Login</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
+    </section>
+    <!--// gallery -->
+
+
+
+
+
+    <!--/order-now-->
+    <section class="order-sec pb-5 pt-md-0 pt-5" id="contact">
+        <div class="container py-lg-3">
+            <div class="test-info text-center">
+                <h3 class="tittle order">
+                    <span>CALL US TO BOOK A TICKET</span>The operator will call back immediately and report the cost of travel.</h3>
+                <h4 class="tittle mt-3">773456789
+                </h4>
+
+                <div class="read-more mx-auto m-0 text-center">
+                    <a href="#login" class="read-more scroll btn">Book Now</a> </div>
+            </div>
+        </div>
+    </section>
+    <!--//order-now-->
+    <!-- portfolio -->
+    <!--<section class="gallery py-5" id="gallery">
+        <div class="container py-md-5">
+            <div class="header text-center">
+                <h3 class="tittle mb-lg-5 mb-3">Some Loctions </h3>
+            </div>
+            <div class="row news-grids mt-md-5 mt-4 text-center">
+                <div class="col-md-6 gal-img">
+                    <a href="#gal1"><img src="images/g1.jpg" alt="Presell" class="img-fluid"></a>
+                    <h5 class="gal-info">Restaurants<span class="decription">Website</span>
+                    </h5>
+                </div>
+                <div class="col-md-6 gal-img">
+                    <a href="#gal2"><img src="images/g2.jpg" alt="Presell" class="img-fluid"></a>
+                    <h5 class="gal-info">Airports<span class="decription">Website</span>
+                    </h5>
+                </div>
+                <div class="col-md-6 gal-img mt-md-5">
+                    <a href="#gal3"><img src="images/g3.jpg" alt="Presell" class="img-fluid"></a>
+                    <h5 class="gal-info">Hospitals <span class="decription">Website</span>
+                    </h5>
+                </div>
+                <div class="col-md-6 gal-img">
+                    <a href="#gal4"><img src="images/g4.jpg" alt="Presell" class="img-fluid"></a>
+                    <h5 class="gal-info">Wedding Parties <span class="decription">Website</span>
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+    <!-- popup-->
+    <div id="gal1" class="pop-overlay">
+        <div class="popup">
+            <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
+            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal2" class="pop-overlay">
+        <div class="popup">
+            <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
+            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!-- popup-->
+    <div id="gal3" class="pop-overlay">
+        <div class="popup">
+            <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
+            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup3 -->
+    <!-- popup-->
+    <div id="gal4" class="pop-overlay">
+        <div class="popup">
+            <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
+            <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
+            <a class="close" href="#gallery">&times;</a>
+        </div>
+    </div>
+    <!-- //popup -->
+    <!--//portfolio-->
+
+    <!--/testimonials-->
+    <section class="testimonials" id="testimonials">
+        <div class="layer test">
+            <div class="container">
+                <div class="test-info text-center">
+                    <h3 class="my-md-2 my-3">Ramesh Iyer</h3>
+
+                    <ul class="list-unstyled w3pvt-icons clients mb-md-4">
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-star-half-o"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p><span class="fa fa-quote-left"></span> I booked my ticket just a day before my journey. I feared I wouldn't get any seats but IntelliGenX's complex algorithm let me get the seat of my choice along with booking an amazing meal. Best experience ever!<span class="fa fa-quote-right"></span></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//testimonials-->
+
+    <!-- contact -->
+    <section class="contact py-5" id="pnrstatus">
+        <div class="container pb-md-5">
+            <div class="header py-lg-5 pb-3 text-center">
+                <h3 class="tittle mb-lg-5 mb-3">Check Your PNR Status Right here.</h3>
+            </div>
+
+            <div class="contact-form mx-auto text-left">
+                <form name="contactform" id="contactform1" method="post" action="#">
+                    <div class="row">
+                      <div class="col-lg-4 con-gd">
+                          <div class="form-group">
+                              <label>Email used to Book *</label>
+                              <input type="email" class="form-control" id="emailid2" placeholder="Enter Email" name="EmailPNR" required="yes">
+                          </div>
+                      </div>
+                        <div class="col-lg-4 con-gd">
+                            <div class="form-group">
+                                <label>PNR NUMBER *</label>
+                                <input type="number" class="form-control" id="pnrstatus" placeholder="Enter PNR Number" name="PNR Status" required="yes">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 contact-page">
+                            <div class="form-group">
+                              <label> Check Your PNR Status *</label>
+                                <button type="submit" class="btn btn-default">Check</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </<section>
+
+          <ul class="list-unstyled row text-left mb-lg-5 mb-3">
+                <li class="col-lg-4 adress-info">
+                    <div class="row">
+                        <div class="col-md-3 text-lg-center adress-icon">
+                            <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="col-md-9 text-left">
+                            <h6>Book Your Tickets!</h6>
+                            <p>Go anywhere.
+                                <br>Explore Everywhere. </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="col-lg-4 adress-info">
+                    <div class="row">
+                        <div class="col-md-3 text-lg-center adress-icon">
+                            <span class="fa fa-envelope-open-o"></span>
+                        </div>
+                        <div class="col-md-9 text-left">
+                            <h6>Get Tickets right in your Email!</h6>
+                            <a href="mailto:info@example.com">Book your tickets and get it in a second.</a>
+                            <br>
+                            <a href="mailto:info@example.com">You can even cancel them whenever you want!</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-4 adress-info">
+                    <div class="row">
+                        <div class="col-md-3 text-lg-center adress-icon">
+                            <span class="fa fa-mobile"></span>
+                        </div>
+                        <div class="col-md-9 text-left">
+                            <h6>Get Notifications on your Phone!</h6>
+                            <p>We send offers on to your phone.</p>
+                            <p>OTP, Info regarding journey- all in one screen!</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- //contact -->
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="asap-lavi-footer-sec py-5">
+            <div class="container py-lg-3">
+                <div class="row">
+                    <div class="col-lg-5 asap-w3pvt-footer-logo">
+                        <!-- footer logo -->
+                        <a class="navbar-brand" href="index.html">RAILWAY TICKET BOOKING SYSTEM
+                        </a>
+                        <!-- //footer logo -->
+                    </div>
+                    <!-- button -->
+                    <div class="col-lg-5 asap-w3pvt-footer text-lg-right text-center mt-3">
+                        <ul class="list-unstyled footer-nav-lavi">
+                            <li>
+                                <a href="index.html" class="scroll active">Home</a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="scroll" href="#offer">Features</a>
+                            </li>
+                            <li>
+                                <a class=" scroll" href="#Routes">Meal/Lounge</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //button -->
+                    <div class="col-lg-2 mt-lg-0 mt-3">
+                        <div class="button-asap-w3pvts mt-0 text-lg-right text-center">
+                            <a href="#contact" class="btn btn-sm thar-four scroll">Contact US</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copy-right-sec mt-4 pt-lg-4 pt-3 text-lg-left text-center">
+                    <!-- copyright -->
+                    <p class="col-lg-8 copy-right-grids mt-lg-1">© 2019 RAILWAY TICKET BOOKING SYSTEM. All Rights Reserved.
+                        <a href="http://w3layouts.com/"> IntelliGENX</a></p>
+                    <!-- //copyright -->
+                    <!-- social icons -->
+                    <div class="col-lg-4 asap-lavi-ocial-icons text-lg-right text-center mt-lg-0 mt-3">
+                        <ul class="list-unstyled w3pvt-icons">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-dribbble"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-vk"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //social icons -->
+                </div>
+                <div class="move-top text-right"><a href="#home" class="move-top"> <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a></div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Payment Page.</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="IntelliGenX Railway Ticket Booking System Software Engineering Project" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Khula:300,400,600,700,800" rel="stylesheet">
+    <!-- //Fonts -->
+</head>
+<body>
+<section class="services py-5" id="paymentdetails">
+  <div class="container pb-md-5">
+      <div class="header py-lg-5 pb-3 text-center">
+          <h3 class="tittle mb-lg-5 mb-3">Enter Payment Details.</h3>
+      </div>
+
+      <div class="contact-form mx-auto text-left">
+          <form name="contactform" id="contactform2" method="post" action="#">
+              <div class="row">
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>Full Name *</label>
+                          <input type="name" class="form-control" id="name1" placeholder="name" name="name" required="yes">
+                      </div>
+                  </div>
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>Date of Birth *</label>
+                          <input type="date" class="form-control" id="dob1" placeholder="DOB" name="dob" required="yes">
+                      </div>
+                  </div>
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>Card Type *</label>
+                          <input type="text" class="form-control" id="cardtype" placeholder="Card Type" name="cardtype" required="yes">
+                      </div>
+                  </div>
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>Card Number *</label>
+                          <input type="number" class="form-control" id="cardnumber" placeholder="Card No." name="cardnumber" required="yes">
+                      </div>
+                  </div>
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>Expiry Date *</label>
+                          <input type="date" class="form-control" id="expirynumber" placeholder="Expiry Date" name="expirynumber" required="yes">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 con-gd">
+                      <div class="form-group">
+                          <label>CVV *</label>
+                          <input type="number" class="form-control" id="cvv1" placeholder="CVV" name="cvv" required="yes">
+                      </div>
+                  </div>
+
+
+                  <div class="col-lg-4 contact-page">
+                      <div class="form-group">
+                          <button type="Pay" class="btn btn-default">Pay</button>
+                      </div>
+                  </div>
+
+              </div>
+
+          </form>
+      </div>
+
+</section>
+</body>
